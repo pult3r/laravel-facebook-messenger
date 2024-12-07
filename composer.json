@@ -45,6 +45,6 @@
         "phpunit/phpunit": "^9.3"
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": false
 
 }
