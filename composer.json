@@ -1,5 +1,5 @@
 {
-    "name": "pult3r/laravel-facebook-messenger",
+    "name": "adolphyu/laravel-facebook-messenger",
     "description": "A Laravel Package to Integrate Facebook Messenger API",
     "keywords": [
         "facebook",
@@ -17,21 +17,21 @@
 
     "autoload": {
         "psr-4": {
-            "pult3r\\FBMessenger\\": "src/"
+            "AdolphYu\\FBMessenger\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "pult3r\\FBMessenger\\Tests\\": "tests/"
+            "AdolphYu\\FBMessenger\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "pult3r\\FBMessenger\\PackageServiceProvider"
+                "AdolphYu\\FBMessenger\\PackageServiceProvider"
             ],
             "aliases": {
-                "FBMSG": "pult3r\\FBMessenger\\Facades\\FBMSG"
+                "FBMSG": "AdolphYu\\FBMessenger\\Facades\\FBMSG"
             }
         }
     },
