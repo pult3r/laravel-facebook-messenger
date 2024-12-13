@@ -6,5 +6,43 @@
         "messenger",
         "chatbot",
         "laravel"
-    ]
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adolph",
+            "email": "adolph@ceramicss.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "AdolphYu\\FBMessenger\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AdolphYu\\FBMessenger\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AdolphYu\\FBMessenger\\PackageServiceProvider"
+            ],
+            "aliases": {
+                "FBMSG": "AdolphYu\\FBMessenger\\Facades\\FBMSG"
+            }
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.2",
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.0",
+        "phpunit/phpunit": "^9.3"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": false
 }
